@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/estilos.css">
+
+  <title>Track your </title>
+  
+
+</head>
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col mt-4 mb-3">
+        <h1 class="text-center">Bienvenido  <span class="badge badge-secondary">Sistema De Seguimiento</span></h1>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-4">
+        <div class="card text-white bg-secondary" style="max-width: 18rem;">
+          <div class="card-header" id="info">Info</div>
+          <div class="card-body">
+            
+            <ul class="list-group">
+              <li class="list-group-item bg-primary" id="id" >ID: </li>
+              <li class="list-group-item bg-primary" id="fecha" >Fecha: </li>
+              <li class="list-group-item bg-primary" id="lat">Lat: </li>
+              <li class="list-group-item bg-primary" id="lon">Lon: </li>
+              <li class="list-group-item bg-primary" id="b_estado">Bateria: </li>
+              <li class="list-group-item bg-primary" id="b_porcent">Bat. Porcentaje: </li>
+              <li class="list-group-item bg-primary" id="b_voltage">Bat. Voltage: </li>
+              <li class="list-group-item bg-primary" id="gsm">Señal GSM: </li>
+              <li class="list-group-item bg-primary" id="tf">Toma De Fuerza: </li>
+              <li class="list-group-item bg-primary" id="bulbo">Bulbo: </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-8">
+        <div id="map">mapas</div>
+      </div>
+      
+
+    </div>
+
+
+
+  </div>
+
+
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/track.js"></script>
+  <script src="js/maps.js"></script>
+  <script async defer
+                src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA6qMxW9Bj4OweyU_uJVH3LMq4dmWD2kRY&libraries=places&callback=initMap">
+  </script>
+</body>
+</html>
